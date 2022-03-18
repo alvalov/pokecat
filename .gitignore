@@ -1,0 +1,7 @@
+node_modules
+.idea/
+.firebase/
+src/app/firebaseconfig.ts
+.DS_store
+settings.json
+public/main.bundle.js*

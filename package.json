@@ -1,0 +1,71 @@
+{
+  "name": "pokecat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "webpack server --config webpack.dev.js",
+    "build": "webpack --config webpack.common.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gits-15.sys.kth.se:antonlov/pokecat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "bootstrap": "^5.1.1",
+    "firebase": "^9.0.2",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^2.0.0-rc.1",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-redux": "^7.2.5",
+    "react-redux-firebase": "^3.10.0",
+    "react-router-dom": "^5.3.0",
+    "react-simple-animate": "^3.3.12",
+    "react-spinners": "^0.11.0",
+    "reactjs-popup": "^2.0.5",
+    "styled-components": "^5.3.1",
+    "yup": "^0.32.11"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/enzymeSetup.js"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@types/lodash": "^4.14.175",
+    "@types/react": "^17.0.21",
+    "@types/react-bootstrap": "^0.32.27",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-loading-overlay": "^1.0.0",
+    "@types/react-redux": "^7.1.18",
+    "@types/react-router-dom": "^5.3.1",
+    "@types/styled-components": "^5.1.15",
+    "babel-jest": "^27.2.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "dts-css-modules-loader": "^1.2.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^27.2.0",
+    "react-test-renderer": "^17.0.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
